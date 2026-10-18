@@ -1,0 +1,15 @@
+﻿nash.awesome-flutter-snippets
+imgildev.vscode-code-log-plus
+llvm-vs-code-extensions.vscode-clangd
+formulahendry.code-runner
+jlcodes.antigravity-cockpit
+robert-brunhage.flutter-riverpod-snippets
+mhutchie.git-graph
+aaron-bond.better-comments
+mathematic.vscode-pdf
+davidanson.vscode-markdownlint
+jeroen-meijer.pubspec-assist
+usernamehw.errorlens
+shopify.ruby-lsp
+shd101wyy.markdown-preview-enhanced
+meta.pyrefly

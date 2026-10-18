@@ -1,0 +1,36 @@
+{
+  "id":  "c953f377-240d-4dcf-87c2-c82b335b068f",
+  "name":  "caffchat",
+  "projectResources":  {},
+  "environments":  {
+    "environments":  [
+      {
+        "id":  "ac3ade61-1bc0-4cc6-94bf-40da9b8d945b",
+        "name":  "explain-async-loading-state",
+        "resources":  {
+          "resources":  [
+            {
+              "folderUri":  "file:///C:/Users/zulfi/.gemini/antigravity/worktrees/caffchat/explain-async-loading-state"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "permissionGrants":  {
+    "permissionGrants":  {
+      "allow":  [
+        "read_file(D:\\Documents\\Fikar\\Project\\hr-system-mobile\\lib\\core\\lifecycle)",
+        "read_file(D:\\Documents\\Fikar\\Project\\hr-system-mobile\\lib)",
+        "read_file(D:\\Documents\\Fikar\\Project\\hr-system-mobile\\pubspec.yaml)"
+      ]
+    }
+  },
+  "settings":  {
+    "fileAccessPolicy":  "AGENT_SETTING_POLICY_ASK",
+    "internetPolicy":  "AGENT_SETTING_POLICY_ASK",
+    "autoExecutionPolicy":  "CASCADE_COMMANDS_AUTO_EXECUTION_OFF",
+    "artifactReviewMode":  "ARTIFACT_REVIEW_MODE_ALWAYS"
+  },
+  "updatedAt":  "2026-06-22T06:26:51.258536600Z"
+}

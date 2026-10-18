@@ -1,0 +1,30 @@
+{
+  "plugins": {
+    "android-cli-plugin": {
+      "enabled": true,
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/android-cli-plugin",
+        "marketplace": "antigravity-plugins-official",
+        "version": "1.0.15985488"
+      }
+    },
+    "antislop": {
+      "enabled": true
+    },
+    "firebase": {
+      "enabled": true
+    }
+  },
+  "userSettings": {
+    "globalPermissionGrants": {
+      "allow": [
+        "command(Get-ChildItem)",
+        "read_file(D:\\Documents\\Fikar\\Project\\portfoliov3\\prisma\\schema.prisma)",
+        "read_file(D:\\Documents\\Fikar\\Project\\portfoliov3\\types\\data-types.ts)",
+        "read_file(D:\\Documents\\Fikar\\Project\\portfoliov3\\app\\admin\\(dashboard)\\media\\page.tsx)",
+        "command(git diff)"
+      ]
+    },
+    "remoteControlHostname": "aliansyah-distant-photon"
+  }
+}

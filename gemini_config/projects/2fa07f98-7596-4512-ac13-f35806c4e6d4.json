@@ -1,0 +1,15 @@
+{
+  "id": "2fa07f98-7596-4512-ac13-f35806c4e6d4",
+  "name": "hr-system-mobile",
+  "projectResources": {
+    "resources": [
+      {
+        "gitFolder": {
+          "folderUri": "file:///d%3A/Documents/Fikar/.Project/hr-system-mobile",
+          "defaultBranch": "dev/phase_3"
+        }
+      }
+    ]
+  },
+  "updatedAt": "2026-08-13T02:27:00.494850400Z"
+}

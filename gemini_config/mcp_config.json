@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest",
+        "--api-key",
+        "ctx7sk-998ca8bb-92ea-474b-afc2-d3a617443a6d"
+      ]
+    },
+    "graphify": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "graphifyy",
+        "--with",
+        "mcp",
+        "python",
+        "-m",
+        "graphify.serve"
+      ]
+    },
+    "dart-mcp-server": {
+      "$typeName": "exa.cascade_plugins_pb.CascadePluginCommandTemplate",
+      "command": "dart",
+      "args": ["mcp-server"],
+      "env": {}
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  }
+}

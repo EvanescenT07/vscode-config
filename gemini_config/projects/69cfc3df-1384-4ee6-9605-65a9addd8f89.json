@@ -1,0 +1,59 @@
+{
+  "id":  "69cfc3df-1384-4ee6-9605-65a9addd8f89",
+  "name":  "portfolio-project",
+  "projectResources":  {},
+  "environments":  {
+    "environments":  [
+      {
+        "id":  "7b346cd3-f154-4c8b-bdcf-d6e028956335",
+        "name":  "migrate-local-data-prisma",
+        "resources":  {
+          "resources":  [
+            {
+              "folderUri":  "file:///C:/Users/zulfi/.gemini/antigravity/worktrees/portfoliov3/migrate-local-data-prisma"
+            }
+          ]
+        }
+      },
+      {
+        "id":  "e40733f8-2df1-4580-91dc-ffc4023b6156",
+        "name":  "fix-tech-render-experience-slider",
+        "resources":  {
+          "resources":  [
+            {
+              "folderUri":  "file:///C:/Users/zulfi/.gemini/antigravity/worktrees/portfoliov3/fix-tech-render-experience-slider"
+            }
+          ]
+        }
+      },
+      {
+        "id":  "79e6a185-4507-48c6-8bd9-0b7e57672f45",
+        "name":  "fix-tech-render-experience-slider-v2",
+        "resources":  {
+          "resources":  [
+            {
+              "folderUri":  "file:///C:/Users/zulfi/.gemini/antigravity/worktrees/portfoliov3/fix-tech-render-experience-slider-v2"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "permissionGrants":  {
+    "permissionGrants":  {
+      "allow":  [
+        "command(Get-Content)",
+        "command(git status)",
+        "command(git branch)",
+        "mcp(context7)"
+      ]
+    }
+  },
+  "settings":  {
+    "fileAccessPolicy":  "AGENT_SETTING_POLICY_ASK",
+    "internetPolicy":  "AGENT_SETTING_POLICY_ASK",
+    "autoExecutionPolicy":  "CASCADE_COMMANDS_AUTO_EXECUTION_OFF",
+    "artifactReviewMode":  "ARTIFACT_REVIEW_MODE_ALWAYS"
+  },
+  "updatedAt":  "2026-07-02T15:42:36.254208500Z"
+}

@@ -1,0 +1,41 @@
+{
+  "workbench.colorCustomizations": {},
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dark Modern",
+  "sourcery.token": "user_1_Ss_vX20F7Dt1Fe_9v99tGQsHwDKkW8DkYODMdpq6eiqW3oyuHrt80K5Lk",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "afterDelay",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "svg.preview.mode": "img",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "python": true,
+    "prisma": false,
+    "typescriptreact": true
+  },
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "python.analysis.typeCheckingMode": "standard",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "explorer.confirmDelete": false,
+  "git.openRepositoryInParentFolders": "always",
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "ajmnz.prisma-import"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "css.lint.unknownProperties": "ignore",
+  "[typescriptreact]": {},
+  "dart.flutterSdkPath": "D:\\dev\\flutter",
+  "java.jdt.ls.java.home": "D:\\android\\jbr",
+  "jdk.telemetry.enabled": true,
+  "diffEditor.renderSideBySide": false,
+  "explorer.confirmPasteNative": false
+}

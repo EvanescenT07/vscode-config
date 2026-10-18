@@ -1,0 +1,147 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-05-15T06:41:39.730Z",
+      "updatedAt": "2026-05-15T06:41:39.730Z"
+    },
+    "pptx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pptx/SKILL.md",
+      "skillFolderHash": "64529c8b3f35fe632b7256bd2f6d46e4b40160ce",
+      "pluginName": "document-skills",
+      "installedAt": "2026-07-28T02:41:21.971Z",
+      "updatedAt": "2026-07-28T02:41:51.851Z"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pdf/SKILL.md",
+      "skillFolderHash": "6369f4649de69bd6857c9bc3b058a77206009238",
+      "pluginName": "document-skills",
+      "installedAt": "2026-07-28T02:41:59.404Z",
+      "updatedAt": "2026-07-28T02:41:59.404Z"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/webapp-testing/SKILL.md",
+      "skillFolderHash": "5ffb7dc66b9fd4c25c3e400a4c00da99a349b714",
+      "pluginName": "example-skills",
+      "installedAt": "2026-07-28T02:42:05.904Z",
+      "updatedAt": "2026-07-28T02:42:05.904Z"
+    },
+    "xlsx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/xlsx/SKILL.md",
+      "skillFolderHash": "fe6471cc9b5b97aae0b576ccb92ffd9b0207589d",
+      "pluginName": "document-skills",
+      "installedAt": "2026-07-28T02:42:12.443Z",
+      "updatedAt": "2026-07-28T02:42:12.443Z"
+    },
+    "android-native-dev": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/MiniMax-AI/skills.git",
+      "skillPath": "skills/android-native-dev/SKILL.md",
+      "skillFolderHash": "cdaadb554c6d5e7d65f35f5052e81c3d839ebdd2",
+      "installedAt": "2026-07-28T02:42:20.240Z",
+      "updatedAt": "2026-07-28T02:42:20.240Z"
+    },
+    "firebase-auth-basics": {
+      "source": "firebase/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/firebase/skills.git",
+      "skillPath": "skills/firebase-auth-basics/SKILL.md",
+      "skillFolderHash": "1a98891948b7c7fd64f17b1141e1ed359ddde191",
+      "installedAt": "2026-07-28T02:43:16.703Z",
+      "updatedAt": "2026-07-28T02:43:16.703Z"
+    },
+    "flutter-build-responsive-layout": {
+      "source": "flutter/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/flutter/skills.git",
+      "skillPath": "skills/flutter-build-responsive-layout/SKILL.md",
+      "skillFolderHash": "018c3c52c14b46fe242ef0b1336a7b07d5d860be",
+      "installedAt": "2026-07-28T02:44:05.465Z",
+      "updatedAt": "2026-07-28T02:44:05.465Z"
+    },
+    "flutter-implement-json-serialization": {
+      "source": "flutter/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/flutter/skills.git",
+      "skillPath": "skills/flutter-implement-json-serialization/SKILL.md",
+      "skillFolderHash": "8c117bee0dd986449f4d636b86221a7f9485a222",
+      "installedAt": "2026-07-28T02:44:10.977Z",
+      "updatedAt": "2026-07-28T02:44:10.977Z"
+    },
+    "flutter-use-http-package": {
+      "source": "flutter/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/flutter/skills.git",
+      "skillPath": "skills/flutter-use-http-package/SKILL.md",
+      "skillFolderHash": "bd169b5cee731751f3b32f43c94cfe9495fc8e6c3eb621b785c69e38b77d0e19",
+      "installedAt": "2026-07-28T02:44:17.385Z",
+      "updatedAt": "2026-07-28T02:44:39.952Z"
+    },
+    "flutter-setup-declarative-routing": {
+      "source": "flutter/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/flutter/skills.git",
+      "skillPath": "skills/flutter-setup-declarative-routing/SKILL.md",
+      "skillFolderHash": "4c2ed2fd729230be581b15d84741688e206632fb2b38af320060cd3518b91179",
+      "installedAt": "2026-07-28T02:44:24.192Z",
+      "updatedAt": "2026-07-28T02:44:44.618Z"
+    },
+    "flutter-apply-architecture-best-practices": {
+      "source": "flutter/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/flutter/skills.git",
+      "skillPath": "skills/flutter-apply-architecture-best-practices/SKILL.md",
+      "skillFolderHash": "baeb208b1cab90c559677626dbd101b96ba93f803cbed85122abdadeb3283a8b",
+      "installedAt": "2026-07-28T02:44:30.836Z",
+      "updatedAt": "2026-07-28T02:44:30.836Z"
+    },
+    "flutter-fix-layout-issues": {
+      "source": "flutter/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/flutter/skills.git",
+      "skillPath": "skills/flutter-fix-layout-issues/SKILL.md",
+      "skillFolderHash": "b2f9789451224e6df8d1d7ac63854c2f1beb30fa35d13ea06fbae9ba2b1b0a7f",
+      "installedAt": "2026-07-28T02:44:37.035Z",
+      "updatedAt": "2026-07-28T02:44:37.035Z"
+    },
+    "auth0": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0/skills/auth0/SKILL.md",
+      "skillFolderHash": "334174cade0d2466e8d880718d0599831b20e9aa68e17a4709abfb5f6d82121d",
+      "installedAt": "2026-07-28T02:49:20.588Z",
+      "updatedAt": "2026-07-28T02:49:20.588Z"
+    },
+    "figma-design-to-code": {
+      "source": "figma/mcp-server-guide",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/figma/mcp-server-guide.git",
+      "skillPath": "skills/figma-design-to-code/SKILL.md",
+      "skillFolderHash": "9541d22db46ab9071cf03748bb6e5c1b03889addbe4d977c4ccb6d32be7dd4ec",
+      "installedAt": "2026-07-28T02:49:25.948Z",
+      "updatedAt": "2026-07-28T02:49:25.948Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  }
+}

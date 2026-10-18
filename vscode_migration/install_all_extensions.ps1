@@ -1,0 +1,37 @@
+﻿# Install all Antigravity IDE extensions into VS Code
+$all = @(
+    'nash.awesome-flutter-snippets'
+    'ms-python.python'
+    'esbenp.prettier-vscode'
+    'ms-python.debugpy'
+    'imgildev.vscode-code-log-plus'
+    'llvm-vs-code-extensions.vscode-clangd'
+    'ms-azuretools.vscode-containers'
+    'formulahendry.code-runner'
+    'jlcodes.antigravity-cockpit'
+    'ms-azuretools.vscode-docker'
+    'robert-brunhage.flutter-riverpod-snippets'
+    'mhutchie.git-graph'
+    'donjayamanne.githistory'
+    'aaron-bond.better-comments'
+    'ritwickdey.liveserver'
+    'mathematic.vscode-pdf'
+    'github.vscode-github-actions'
+    'davidanson.vscode-markdownlint'
+    'jeroen-meijer.pubspec-assist'
+    'golang.go'
+    'usernamehw.errorlens'
+    'dart-code.flutter'
+    'dart-code.dart-code'
+    'pkief.material-icon-theme'
+    'shopify.ruby-lsp'
+    'shd101wyy.markdown-preview-enhanced'
+    'meta.pyrefly'
+)
+
+Write-Host "Installing all Antigravity IDE extensions into VS Code..." -ForegroundColor Cyan
+foreach ($ext in $all) {
+    Write-Host "Installing $ext..." -ForegroundColor Yellow
+    code --install-extension $ext --force
+}
+Write-Host "Finished installing all extensions!" -ForegroundColor Green
