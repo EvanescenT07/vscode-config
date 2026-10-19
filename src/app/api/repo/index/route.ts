@@ -11,7 +11,7 @@ export async function GET(): Promise<NextResponse> {
 
     return NextResponse.json(index, {
       headers: {
-        "Cache-Control": "public, s-maxage=300, stale-while-revalidate=300",
+        "Cache-Control": "no-store",
       },
     });
   } catch (error) {

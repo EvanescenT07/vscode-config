@@ -34,7 +34,7 @@ export async function GET(request: Request): Promise<NextResponse> {
       headers: {
         "Cache-Control": immutable
           ? "public, max-age=31536000, immutable"
-          : "public, s-maxage=300, stale-while-revalidate=60",
+          : "no-store",
       },
     });
   } catch (error) {

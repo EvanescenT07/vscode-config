@@ -20,7 +20,7 @@ export async function GET(request: Request): Promise<NextResponse> {
 
     return NextResponse.json(commits, {
       headers: {
-        "Cache-Control": "public, s-maxage=120, stale-while-revalidate=60",
+        "Cache-Control": "no-store",
       },
     });
   } catch (error) {

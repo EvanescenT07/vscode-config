@@ -47,9 +47,9 @@ export async function POST(request: Request): Promise<NextResponse> {
     throw error;
   }
 
-  revalidateTag("repo-tree", "max");
-  revalidateTag("repo-commits", "max");
-  revalidateTag("repo-file", "max");
+  revalidateTag("repo-tree", { expire: 0 });
+  revalidateTag("repo-commits", { expire: 0 });
+  revalidateTag("repo-file", { expire: 0 });
 
   return NextResponse.json({ revalidated: true, at: new Date().toISOString() });
 }
