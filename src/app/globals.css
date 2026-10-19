@@ -1,0 +1,282 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: 7 10 15;
+  --panel: 11 15 22;
+  --raised: 16 22 31;
+  --edge: 31 41 55;
+  --ink: 231 237 246;
+  --muted: 139 153 174;
+  --accent: 83 155 255;
+  --accent-soft: 17 31 53;
+  --add: 61 189 124;
+  --del: 240 101 112;
+  --font-sans: "Segoe UI Variable Display", "Segoe UI", ui-sans-serif, system-ui,
+    -apple-system, sans-serif;
+  --font-mono: "Cascadia Code", "JetBrains Mono", "SFMono-Regular", Consolas,
+    ui-monospace, monospace;
+}
+
+* {
+  border-color: rgb(var(--edge));
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: rgb(var(--canvas));
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% -10%, rgb(30 58 95 / 0.35), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgb(20 45 70 / 0.25), transparent);
+  color: rgb(var(--ink));
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgb(var(--accent) / 0.3);
+  color: rgb(var(--ink));
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--edge));
+  border: 2px solid rgb(var(--panel));
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(58 74 96);
+}
+
+a {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid rgb(var(--accent) / 0.75);
+  outline-offset: 2px;
+}
+
+.code-surface {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.7;
+  tab-size: 2;
+}
+
+.code-surface .shiki {
+  background: transparent !important;
+  margin: 0;
+  padding: 14px 0 24px;
+  overflow: visible;
+}
+
+.code-surface .shiki code {
+  display: block;
+  counter-reset: line;
+}
+
+.code-surface .shiki .line {
+  display: block;
+  min-height: 1.7em;
+  padding-left: 14px;
+  padding-right: 18px;
+}
+
+.code-surface .shiki .line::before {
+  counter-increment: line;
+  content: counter(line);
+  display: inline-block;
+  width: 2.6rem;
+  margin-right: 16px;
+  color: rgb(74 90 112);
+  text-align: right;
+  user-select: none;
+}
+
+.markdown {
+  color: rgb(var(--ink) / 0.92);
+  font-size: 14.5px;
+  line-height: 1.75;
+}
+
+.markdown > :first-child {
+  margin-top: 0;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  color: rgb(var(--ink));
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  scroll-margin-top: 96px;
+}
+
+.markdown h1 {
+  font-size: 1.65rem;
+  margin: 2rem 0 0.85rem;
+}
+.markdown h2 {
+  font-size: 1.28rem;
+  margin: 1.85rem 0 0.7rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid rgb(var(--edge));
+}
+.markdown h3 {
+  font-size: 1.06rem;
+  margin: 1.5rem 0 0.55rem;
+}
+.markdown h4 {
+  font-size: 0.95rem;
+  margin: 1.3rem 0 0.5rem;
+  color: rgb(var(--muted));
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown table,
+.markdown blockquote {
+  margin: 0.75rem 0;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 1.35rem;
+}
+
+.markdown ul {
+  list-style: disc;
+}
+
+.markdown ol {
+  list-style: decimal;
+}
+
+.markdown li {
+  margin: 0.3rem 0;
+}
+
+.markdown li::marker {
+  color: rgb(var(--accent));
+}
+
+.markdown a {
+  color: rgb(var(--accent));
+  text-decoration: underline;
+  text-decoration-color: rgb(var(--accent) / 0.35);
+  text-underline-offset: 3px;
+}
+
+.markdown strong {
+  color: rgb(var(--ink));
+  font-weight: 600;
+}
+
+.markdown code {
+  font-family: var(--font-mono);
+  font-size: 0.84em;
+  background: rgb(var(--raised));
+  border: 1px solid rgb(var(--edge));
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  color: rgb(190 214 245);
+}
+
+.markdown pre {
+  background: rgb(9 13 19);
+  border: 1px solid rgb(var(--edge));
+  border-radius: 8px;
+  padding: 14px 16px;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.markdown pre code {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font-size: 12.5px;
+  color: rgb(var(--ink) / 0.9);
+}
+
+.markdown blockquote {
+  border-left: 3px solid rgb(var(--accent) / 0.5);
+  background: rgb(var(--accent-soft) / 0.45);
+  padding: 0.65rem 1rem;
+  border-radius: 0 6px 6px 0;
+  color: rgb(var(--muted));
+}
+
+.markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  display: block;
+  overflow-x: auto;
+}
+
+.markdown th,
+.markdown td {
+  border: 1px solid rgb(var(--edge));
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.markdown th {
+  background: rgb(var(--raised));
+  color: rgb(var(--ink));
+  font-weight: 600;
+}
+
+.markdown tr:nth-child(even) td {
+  background: rgb(var(--raised) / 0.35);
+}
+
+.markdown hr {
+  border: 0;
+  border-top: 1px solid rgb(var(--edge));
+  margin: 1.75rem 0;
+}
+
+.markdown img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.grid-noise {
+  background-image: linear-gradient(
+      to right,
+      rgb(var(--edge) / 0.22) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgb(var(--edge) / 0.22) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
